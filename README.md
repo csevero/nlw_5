@@ -6,11 +6,6 @@
   NextLevelWeek 5.0 🚀 Em Desenvolvimento
 </h4>
 
-<p align="center">
-  <a href="#-project-node">Trilha Node</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project-react">Trilha React</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
-
 # Trilha Node
 
 ## Aulas
