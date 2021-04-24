@@ -7,7 +7,7 @@ import {
 
 export class CreateConnections1619019552967 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
-    queryRunner.createTable(
+    await queryRunner.createTable(
       new Table({
         name: "connections",
         columns: [

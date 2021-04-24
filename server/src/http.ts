@@ -19,12 +19,17 @@ para que funcione, precisamos instalar a lib ejs no nosso projeto
 */
 app.engine("html", require("ejs").renderFile);
 
-//aqui estamos setando nossa view engine
+//aqui estamos definindo nossa view engine
 app.set("view engine", "html");
 
 //criando uma rota para testar, dentro dela estamos chamando um render html/client.html que é nosso 'front-end'
 app.get("/pages/client", (req, res) => {
   return res.render("html/client.html");
+});
+
+//criando uma rota para testar, dentro dela estamos chamando um render html/admin.html que é nosso 'front-end'
+app.get("/pages/admin", (req, res) => {
+  return res.render("html/admin.html");
 });
 
 const http = createServer(app); //criando protocolo http atribuindo nosso app a ele

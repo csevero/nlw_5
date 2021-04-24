@@ -12,8 +12,8 @@
 - Dia 1: Liftoff - :heavy_check_mark:
 - Dia 2: Maximum Speed - :heavy_check_mark:
 - Dia 3: In Orbit - :heavy_check_mark:
-- Dia 4: Landing
-- Dia 5: Surface Exploration
+- Dia 4: Landing - :heavy_check_mark:
+- Dia 5: Surface Exploration - :heavy_check_mark:
 
 ## 💻 O Projeto
 
